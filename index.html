@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Practica formularios</h1>
+    <form name="Datos personales" action="#">
+        <input type="text" name="nombre" placeholder="Digite su nombre" id="name" form="Datos personales" autocomplete="off" size="20" autofocus required> <br>
+        <input type="password" name="" id="" placeholder="Contraseña"><br>
+        <input type="radio" name="genero" id="genero">
+        <label for="genero">No binario</label><br>
+        <input type="checkbox" name="" id=""><br>
+        <input type="email" name="" id=""><br>
+        <input type="file" name="" id=""><br>
+        <input type="number" name="" id="" placeholder="numero"><br>
+        <input type="range" name="" id=""><br>
+        <input type="search" name="" id=""><br>
+        <input type="tel" name="" id="" placeholder="celular"><br>
+        <input type="time" name="" id=""><br>
+        <input type="submit" value="Enviar"><br>
+        <input type="hidden" name="oculto" id="oculto" value="Profesores"><br>
+        <input type="reset" name="" id=""><br>
+        <input type="url" name="" id=""><br>
+    </form>
+    <br>
+    <hr>
+    <br>
+
+    <form action="#">
+        <table border="1">
+            <tr>
+                
+                <td><input type="text" name="nombre" id="nombre" placeholder="Digite su nombre"></td>
+                
+                <td><input type="text" name="apellido" id="apellido" placeholder="Digite su apellido"> </td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" id="email" placeholder="Digite su correo"></td>
+                <td><input type="tel" name="telefono" id="telefono" placeholder="Digite su telefono"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="Direccion" id="Direccion" placeholder="Direccion" size="44"></td>
+            </tr>
+            <tr>
+                <td><p>Genero</p>
+                    <input type="radio" name="masculino" id="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" name="femenino" id="femenino">
+                    <label for="femenino">Femenino</label>
+                </td>
+
+                <td><p>Hobbies</p>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies"></label>
+                    <label for="hobbies">Deportes</label><br>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Música</label><br>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Juegos</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"><br></td>
+                <td><input type="reset" name="" id=""><br></td>
+            </tr>
+        </table>
+
+    </form>
+
+
+</body>
+</html>
